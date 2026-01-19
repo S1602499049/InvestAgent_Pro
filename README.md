@@ -53,8 +53,9 @@ InvestAgent_Pro/
 ├── main.py              # 程序启动入口
 └── requirements.txt     # 依赖清单
 
-🚀 快速开始 (Quick Start)
-1. 环境准备
+###🚀 快速开始 (Quick Start)
+```text
+####1. 环境准备
 确保已安装 Python 3.10 或以上版本。
 # 克隆项目 (示例)
 git clone https://github.com/YourUsername/StratEdge-AI.git
@@ -63,7 +64,7 @@ cd StratEdge-AI
 # 安装依赖
 pip install -r requirements.txt
 
-2. 配置 API Key
+####2. 配置 API Key
 打开 config/settings.json 文件，填入你的 SiliconFlow (或 DeepSeek) API Key：
 {
     "api": {
@@ -73,10 +74,10 @@ pip install -r requirements.txt
     }
 }
 
-3. 运行软件
+####3. 运行软件
 python main.py
 
-📦 打包指南 (Build Instructions)
+###📦 打包指南 (Build Instructions)
 本项目包含复杂的第三方库（如 torch 排除、reportlab 隐式调用），请务必使用以下标准命令进行打包。
 
 Step 1: 生成 EXE 可执行文件
