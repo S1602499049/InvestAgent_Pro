@@ -56,6 +56,7 @@ InvestAgent_Pro/
 ```
 
 ##🚀 快速开始 (Quick Start)
+```text
 1. 环境准备
 确保已安装 Python 3.10 或以上版本。
 # 克隆项目 (示例)
@@ -77,6 +78,7 @@ pip install -r requirements.txt
 
 #3. 运行软件
 python main.py
+```
 
 ##📦 打包指南 (Build Instructions)
 本项目包含复杂的第三方库（如 torch 排除、reportlab 隐式调用），请务必使用以下标准命令进行打包。
@@ -122,7 +124,7 @@ htmldocx
 pillow
 requests
 
-## ⚠️ 免责声明 (Disclaimer)
+⚠️ 免责声明 (Disclaimer)
 本软件生成的投资分析报告基于互联网公开数据和大模型逻辑推演，仅供参考，不构成实质性投资建议。开发者不对基于本软件做出的投资决策承担任何责任。
 
 Copyright © 2026 Enterprise Solutions Co. All Rights Reserved.
