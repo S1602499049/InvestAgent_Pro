@@ -82,7 +82,7 @@ python main.py
 
 ##📦 打包指南 (Build Instructions)
 本项目包含复杂的第三方库（如 torch 排除、reportlab 隐式调用），请务必使用以下标准命令进行打包。
-
+```text
 Step 1: 生成 EXE 可执行文件
 在项目根目录下打开终端 (CMD)，运行以下命令：
 python -m PyInstaller --noconsole --onefile ^
@@ -123,7 +123,7 @@ python-docx
 htmldocx
 pillow
 requests
-
+```
 ⚠️ 免责声明 (Disclaimer)
 本软件生成的投资分析报告基于互联网公开数据和大模型逻辑推演，仅供参考，不构成实质性投资建议。开发者不对基于本软件做出的投资决策承担任何责任。
 
